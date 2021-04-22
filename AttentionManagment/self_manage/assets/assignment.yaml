@@ -1,0 +1,48 @@
+actions:
+  - action:
+      type: learn #
+      subjects:
+        - subject: AI
+        - subject : NLP
+      length: 30 # in minutes
+      when:
+        prefered: 5-14
+        otherwise: 5-22
+  - action:
+      type: practice #
+      subjects:
+        - subject: advanced python
+        - subject: NLP
+      length: 30 # in minutes
+      when:
+        prefered: 5-14
+        otherwise: 5-22
+  - action:
+      type: interview #
+      subjects:
+        - subject: python interview question
+        - subject: algorithm interview question
+        - subject: personal question
+      length: 30 # in minutes
+      when:
+        prefered: 12
+        otherwise: 5-22
+check_points:
+  - time : 14
+  - time : 18
+post_mortam:
+  - time : 21
+pre_mortam:
+  - time : 6
+events:
+  - event:
+      name : prepare lunch
+      time : 13
+  - event:
+      name: prepare food
+      time: 6:20
+
+
+
+
+
